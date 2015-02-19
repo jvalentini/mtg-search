@@ -6,7 +6,20 @@ front-end to provide visualization and display capabilities.
 
 ## Usage
 
-FIXME
+...
+
+## TODO
+
+- Read in and parse the json cards
+- Determine how to index each card.
+  - How do we index metadata about card sets?
+- Push the data into elasticsearch
+  - Due to the large number of documents, adding some sort of resume capability would be good.
+  - One way to decouple parsing from indexing could be using Kafka.
+    - Parse a doc and produce a message to a kafka topic
+    - Then, a consumer could read each message and keep track of position
+    - This allows for parallelism as topics could contain multiple
+    partitions and there could be a single consumer per partition.
 
 ## License
 
