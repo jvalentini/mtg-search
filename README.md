@@ -1,6 +1,8 @@
 # mtg-search
 
-A Clojure library designed to ... well, that part is up to you.
+The goal of this project is to index every Magic:The Gathering card
+into an ElasticSearch cluster. The cluster will use Kibana as a
+front-end to provide visualization and display capabilities.
 
 ## Usage
 
