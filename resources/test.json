@@ -1,0 +1,48 @@
+[
+  {
+    "imageName": "mistfire adept",
+    "watermark": "Jeskai",
+    "cmc": 4,
+    "subtypes": [
+      "Human",
+      "Monk"
+    ],
+    "name": "Mistfire Adept",
+    "multiverseid": 391881,
+    "colors": [
+      "Blue"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "type": "Creature — Human Monk",
+    "layout": "normal",
+    "rarity": "Uncommon",
+    "artist": "Clint Cearley",
+    "power": "3",
+    "toughness": "3",
+    "manaCost": "{3}{U}",
+    "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, target creature gains flying until end of turn.",
+    "flavor": "\"The quieter the skies, the calmer the mind.\"",
+    "number": "42"
+  },
+  {
+    "imageName": "mob rule",
+    "number": "109",
+    "text": "Choose one —\n• Gain control of all creatures with power 4 or greater until end of turn. Untap those creatures. They gain haste until end of turn.\n• Gain control of all creatures with power 3 or less until end of turn. Untap those creatures. They gain haste until end of turn.",
+    "manaCost": "{4}{R}{R}",
+    "artist": "Jakub Kasper",
+    "layout": "normal",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "colors": [
+      "Red"
+    ],
+    "multiverseid": 391882,
+    "name": "Mob Rule",
+    "cmc": 6,
+    "rarity": "Rare"
+  }
+]

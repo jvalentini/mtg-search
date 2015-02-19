@@ -1,6 +1,4 @@
-(ns mtg-search.core)
+(ns mtg-search.core
+  (:require [clojure.data.json :as json]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(def sets (json/read-str (slurp "resources/test.json")))
